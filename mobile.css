@@ -1,0 +1,17 @@
+@media (max-width: 880px){
+    #corpo #bemVindo{
+        display: block;
+    }
+}
+
+@media (max-width: 865px){
+    #form{
+        background-image: none;
+    }
+}
+
+@media (max-width: 670px){
+ .icones{
+        display: block;
+    }
+}

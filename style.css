@@ -1,0 +1,193 @@
+/*cores bases do site*/
+:root{
+    --cor-topo: #D8F1FB;
+    --cor-preta: black;
+    --cor-principal:#EA1C81;
+    --cor-branca: white;
+    --cor-de-fundo: #FAFBFF;
+    --padding:20px;
+    --cor-rodape: #D8F1FB82;
+
+
+
+}
+/*tira todo espaçamento*/
+*{
+    margin: 0px;
+    padding:0px;
+    transition: all 1s;
+
+}
+/* estilizando o cabeçalho */
+#cabecalho{
+    background-color: var(--cor-topo);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+/* texto cor */
+#cabecalho nav a{
+    text-decoration: none;
+    color: var(--cor-preta);
+}
+/* efeito da navegação :hover faz o efeito do mouse*/
+#cabecalho nav a:hover{
+    color: var(--cor-branca);
+    background-color: var(--cor-principal);
+    padding: 15px;
+    border-radius: 15px;
+}
+/* margem lateral, encima embaixo de um lado e do outro */
+.margin{
+   margin: 0px 20px;
+
+}
+/* banner configurações */
+#corpo #banner{
+    background-image: url(../img/Banner.png);
+    height:calc(100vh - 93px);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+#corpo #banner p{
+    margin: 30px 0px;
+    color: var(--cor-preta);
+    font-size: 22pt;
+}
+#corpo #banner h1{
+    color: var(--cor-principal);
+    font-size: 65pt;
+    font-style: oblique;
+}
+
+/* a partir daqui em fiz sozinha , ajudas. */
+
+/* botão */
+.button{
+    color: var(--cor-branca);
+    background-color: var(--cor-principal);
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    margin: 0 auto;
+    cursor: pointer;
+}
+/* texto dividido em 2  */
+#corpo #bemVindo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+/* espaçamento entre eles */
+#corpo #bemVindo div{
+padding: 50px;
+
+/* bem vindo do site em rosa */
+}
+.paragrafo{
+    color: var(--cor-principal);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+} 
+/* texto embaixo do bem vindo */
+.text{
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+}
+        /* texto do lado do bem vindo  */
+.next{
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 31px;
+}
+/* texto em cima dos icones */
+#corpo #beneficios{
+        text-align: center;
+        font-size: larger;
+        background-color: var(--cor-de-fundo);
+}
+/* icones config */
+.icones{
+    color: var(--cor-principal);
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: var(--padding)
+}
+
+/* formulario */
+.form h4{
+        padding: 10px;
+        text-align: center;
+        color: var(--cor-preta);
+        line-height: 35px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+#section{
+background-image: url(../img/1-16373_dogs-png-jpg-royalty-free-library-dog-and\ 1.png);
+background-repeat: no-repeat;
+background-size: contain;
+
+
+}
+.form p{
+        padding: 10px;
+        text-align: center;
+        color: var(--cor-preta);
+
+}
+
+
+ input{
+        padding: 10px;
+        border-radius: 10px;
+        height: 30px;
+        width: 300px;
+        border: none;
+        border-bottom: 1px solid var(--cor-preta);
+ }
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+        justify-content: center;
+    
+   
+}
+
+/* botão */
+.botao{
+        color: var(--cor-branca);
+        background-color: var(--cor-principal);
+        width: 260px;
+        text-align: center;
+        padding: 15px;
+        border-radius: 15px;
+        border: none;
+        margin: 20px;
+}
+
+
+/* rodapé do site */
+#rodape {
+    background-color: var(--cor-rodape);
+    padding: 30px;
+    text-align: center;
+}
+
